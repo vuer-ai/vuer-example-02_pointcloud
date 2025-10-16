@@ -12,8 +12,8 @@ from vuer import Vuer
 from vuer.events import Set
 from vuer.schemas import DefaultScene, Ply, PointCloud
 
-assets_folder = Path(__file__).parent / "../../../assets"
-test_file = "static_3d/porsche.ply"
+assets_folder = Path(__file__).parent / "assets"
+test_file = "porsche.ply"
 
 # trimesh has issue loading large point clouds.
 pcd = o3d.io.read_point_cloud(str(assets_folder / test_file))
