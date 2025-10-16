@@ -5,8 +5,7 @@ This example shows you two ways to load a point cloud. In the first example, you
 
 We apply a few tricks to make the point cloud transmit faster. See the [Why is it so much faster?](#why-is-it-so-much-faster) section for more details.
 
-You should expect to see a scene that looks like the following:
-![pointcloud](figures/pointcloud.png)
+![Demo](demo.gif)
 
 The second point cloud should load **significantly** faster than the first one, due to its smaller size. We use half-precision for the vertices, and Uint8 for the colors. This cuts the overall size by half.
 
