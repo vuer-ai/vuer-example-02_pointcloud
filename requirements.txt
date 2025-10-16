@@ -1,0 +1,3 @@
+vuer
+trimesh
+numpy
