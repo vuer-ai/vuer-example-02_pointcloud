@@ -26,6 +26,7 @@ async def main(proxy):
     proxy @ Set(
         DefaultScene(
             Ply(
+                key="ply",
                 src="http://localhost:8012/static/" + test_file,
                 size=0.008,
                 position=[0, 0, 5],
